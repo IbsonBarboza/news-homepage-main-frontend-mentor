@@ -618,6 +618,10 @@ nav.active{
   margin-top: 1.5rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .block{
   display: block;
 }
@@ -818,5 +822,63 @@ nav.active{
 
   .md\:hidden{
     display: none;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:fixed{
+    position: fixed;
+  }
+
+  .lg\:relative{
+    position: relative;
+  }
+
+  .lg\:top-0{
+    top: 0px;
+  }
+
+  .lg\:right-0{
+    right: 0px;
+  }
+
+  .lg\:bottom-full{
+    bottom: 100%;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:inline-block{
+    display: inline-block;
+  }
+
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:h-0{
+    height: 0px;
+  }
+
+  .lg\:min-h-0{
+    min-height: 0px;
+  }
+
+  .lg\:w-0{
+    width: 0px;
+  }
+
+  .lg\:min-w-0{
+    min-width: 0px;
   }
 }
